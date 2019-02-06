@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-color: #ffeee2;
+}
+.contactItem{
+	padding: 40px;
+}
+.contactImage{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.contactLabel{
+	font-weight: 700;
+	color: #3c78e0;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+.contactEmail{
+	text-decoration: none;
+	color: #db8300;
+	padding: 10px;
+}
+.contactForm{
+	padding: 20px;
+	margin-top: 20px;
+}
+input{
+	padding: 10px;
+	background-color: #c7e1fc;
+}
+button{
+	padding: 10px;
+	margin-left: 20px;
+	background-color: #41a2fc;
+	cursor: pointer;
+	border:none;
+	border-radius: 2px;
+	transition: all 0.5s;
+}
+button:hover{
+	background-color: #003259;
+	color: #fff;
+	padding: 20px;
+	margin-left: 15px;
+}
